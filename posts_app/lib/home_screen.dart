@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
   AppBar _buildAppBar(PostsProvider provider) {
     return AppBar(
       title: const Text(
-        '📝 Posts App',
+        'Posts App',
         style: TextStyle(fontWeight: FontWeight.bold),
       ),
       backgroundColor: Colors.deepPurple,
@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         style: const TextStyle(color: Colors.white),
         decoration: InputDecoration(
-          hintText: '🔍 Search posts by title...',
+          hintText: ' Search posts by title...',
           hintStyle: const TextStyle(color: Colors.white70),
           prefixIcon: const Icon(Icons.search, color: Colors.white70),
           suffixIcon: _searchController.text.isNotEmpty
